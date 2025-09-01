@@ -23,9 +23,9 @@
 	      </Label>    
 	      <Font>
 		<CssParameter name="font-size">15</CssParameter>
-		<CssParameter name="font-family">Arial</CssParameter>s
-	      </Font>          
-	      <VendorOption name="group">true</VendorOption> 
+		<CssParameter name="font-family">Arial</CssParameter>
+	      </Font>    
+	     
               <Halo>
                 <Radius>
                   <ogc:Literal>1</ogc:Literal>
@@ -37,8 +37,9 @@
               <Fill>
                 <CssParameter name="fill">#b1b3a9</CssParameter>
               </Fill>
+          	  <VendorOption name="group">true</VendorOption> 
 	    </TextSymbolizer>	    	    
-	</Rule>s
+	</Rule>
       </FeatureTypeStyle>
 
       <FeatureTypeStyle>
@@ -47,7 +48,7 @@
 	  <Title>World Bnds</Title>
 	  <MinScaleDenominator>5000000</MinScaleDenominator>
 	  <PolygonSymbolizer>
-	    <Fill>s
+	    <Fill>
 	      <CssParameter name="fill">#E4E6DA</CssParameter>
 	      <CssParameter name="fill-opacity">1</CssParameter>
 	    </Fill>
