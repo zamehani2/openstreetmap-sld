@@ -29,37 +29,37 @@
 	    </Stroke>
 	    </PolygonSymbolizer>
 	    <TextSymbolizer>
-              <Label>
-		<ogc:PropertyName>name</ogc:PropertyName>
-	      </Label>	      
-	      <Font>
-	       <CssParameter name="font-family">Arial</CssParameter>
-	       <CssParameter name="font-style">italic</CssParameter>
-	       <CssParameter name="font-size">10</CssParameter>
-	      </Font>
-	      <PointPlacement>
-		<AnchorPoint>
-		  <AnchorPointX>
-		    0.5
-		  </AnchorPointX>
-		  <AnchorPointY>
-		    0
-		  </AnchorPointY>
-		</AnchorPoint>
-	      </PointPlacement>
-	      <Halo>    
-		<Radius>
-		  <ogc:Literal>2</ogc:Literal>
-		</Radius>
-		<Fill>
-		  <CssParameter name="fill">#FFFFFF</CssParameter>
-		  <CssParameter name="fill-opacity">0.85</CssParameter>
-		</Fill>
-	      </Halo>
-	      <Fill>
-		<CssParameter name="fill">#063575</CssParameter>
-	      </Fill>	      	     
-            </TextSymbolizer>	  
+  <Label>
+    <ogc:PropertyName>name</ogc:PropertyName>
+  </Label>
+  <Font>
+    <CssParameter name="font-family">Arial</CssParameter>
+    <CssParameter name="font-style">italic</CssParameter>
+    <CssParameter name="font-size">10</CssParameter>
+  </Font>
+
+  <LabelPlacement>
+    <PointPlacement>
+      <AnchorPoint>
+        <AnchorPointX>0.5</AnchorPointX>
+        <AnchorPointY>0</AnchorPointY>
+      </AnchorPoint>
+    </PointPlacement>
+  </LabelPlacement>
+
+  <Halo>
+    <Radius>
+      <ogc:Literal>2</ogc:Literal>
+    </Radius>
+    <Fill>
+      <CssParameter name="fill">#FFFFFF</CssParameter>
+      <CssParameter name="fill-opacity">0.85</CssParameter>
+    </Fill>
+  </Halo>
+  <Fill>
+    <CssParameter name="fill">#063575</CssParameter>
+  </Fill>
+</TextSymbolizer>  
 	</Rule>
       </FeatureTypeStyle>
     </UserStyle>
